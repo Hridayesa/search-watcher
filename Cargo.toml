@@ -1,0 +1,10 @@
+[package]
+name = "search-watcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+url-escape = "0.1"
+strfmt = "0.2"
+map-macro = "0.3"
+reqwest = { version = "0.12", features = ["blocking", "json"] }
